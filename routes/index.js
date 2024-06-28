@@ -1,5 +1,5 @@
 import { Router } from 'express';
 export const router = Router();
-import { nr } from './notes.js';
+import { notesRouter } from './notes.js';
 
-router.use('/notes', nr)
+router.use('/notes', notesRouter)
